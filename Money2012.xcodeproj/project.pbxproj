@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FB9F5A12C44F827009613A8 /* money.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FB9F59F2C44F827009613A8 /* money.cpp */; };
 		0FD07E822C4447D50002870A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FD07E812C4447D50002870A /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0FB9F59F2C44F827009613A8 /* money.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = money.cpp; sourceTree = "<group>"; };
+		0FB9F5A02C44F827009613A8 /* money.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = money.hpp; sourceTree = "<group>"; };
 		0FD07E7E2C4447D50002870A /* Money2012 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Money2012; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD07E812C4447D50002870A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				0FD07E812C4447D50002870A /* main.cpp */,
+				0FB9F59F2C44F827009613A8 /* money.cpp */,
+				0FB9F5A02C44F827009613A8 /* money.hpp */,
 			);
 			path = Money2012;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FB9F5A12C44F827009613A8 /* money.cpp in Sources */,
 				0FD07E822C4447D50002870A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,6 +190,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SYSTEM_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -238,6 +245,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SYSTEM_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -248,6 +256,7 @@
 				DEVELOPMENT_TEAM = EYWEP6YJP9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -258,6 +267,7 @@
 				DEVELOPMENT_TEAM = EYWEP6YJP9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
